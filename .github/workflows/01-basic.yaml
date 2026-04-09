@@ -1,9 +1,10 @@
 name: 01 Basic Workflow
+run-name: ${{ github.actor }}의 기초 워크플로 실습
 
 on:
   push:
     branches:
-      - main
+      - '!main'
 
 jobs:
   hello:
